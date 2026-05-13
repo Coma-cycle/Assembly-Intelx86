@@ -6,9 +6,9 @@ i am working with x86 64-bit assembly)
 the src directory contains .asm files(64-bit assembly). 
 the build directory contains executed files using the following commands (for linux):
 
-nasm -f elf64 src/---.asm -o build/---.o ;assemble using nasm
-ld build/---.o -o /build/--- ; link the object file 
-build/---
+#nasm -f elf64 src/---.asm -o build/---.o ;assemble using nasm
+#ld build/---.o -o /build/--- ; link the object file 
+#build/---
 
 widoew users can run it via:
 ####
