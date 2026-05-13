@@ -31,3 +31,5 @@ the registers layout in x86-64 are as follow
 #repeat
 ```
 [BCDTOBINARY](src/BCD2B.asm) this scrpit will convert 4 digit bcd into binary
+
+[Hello world!](src/hello.asm)
