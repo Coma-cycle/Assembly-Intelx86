@@ -1,10 +1,9 @@
-Names of the files are self-explanotory of what one might expect the code to do, 
-these assembly codes structure and flow were inspired by introduction to x86 microprocessor
-course I took in iust university.(although the cource was about 8086(16-bit assembly), here
-i am working with x86 64-bit assembly)
+The names of the files are self-explanotory, indicating what one might expect the code to do. 
+these assembly programs, in the term of structure and flow, were inspired by the introduction to x86 Microprocessor course I took at IUST University.Although the cource focused on the 8086(16-bit assembly),
+here I am working with x86 64-bit assembly.
 
 the src directory contains .asm files(64-bit assembly). 
-the build directory contains executed files using the following commands (for linux):
+the build directory contains executed files using the following commands _for linux:
 
 assemble using nasm :
 ```
