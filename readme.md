@@ -17,11 +17,12 @@ the registers layout in x86-64 are as follow
 ![layout](images/registers.png)
 
 [read_key](read_key.asm)
-read key
-   ↓
-is key ESC?
-   ↓ yes → exit
-   ↓ no
-print character
-   ↓
-repeat
+
+#read key
+#   ↓
+#is key ESC?
+#   ↓ yes → exit
+#   ↓ no
+#print character
+#   ↓
+#repeat
