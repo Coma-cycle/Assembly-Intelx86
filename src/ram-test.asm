@@ -8,13 +8,13 @@ msg_err:  db "RAM ERROR", 10
 msg_err_len: equ $ - msg_err
 
 section .bss
-buffer resb 2048   ;
+buffer resb 2048   ;2048=2KB ending address = 0000H + 0800H - 1 = 07FFH
 
 section .text
 
 _start:
     ; ===== Fill buffer with 0xAA =====
-    mov rcx, 2048
+    mov rcx, 2048 ; 2000 bytes all containing AAH = 10101010 
     mov rdi, buffer
     mov al, 0xAA;
 
@@ -35,7 +35,7 @@ _start:
     loop .verify_loop
 
     ; ===== All OK =====
-.ram_ok:
+.TEST20:
     mov rax, 1
     mov rdi, 1
     mov rsi, msg_ok
@@ -44,7 +44,7 @@ _start:
     jmp .exit
 
     ; ===== Error =====
-.ram_error:
+.TEST10:
     mov rax, 1
     mov rdi, 1
     mov rsi, msg_err
