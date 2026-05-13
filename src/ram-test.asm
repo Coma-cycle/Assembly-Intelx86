@@ -30,7 +30,7 @@ _start:
 
 .verify_loop:
     cmp byte [rdi], al
-    jne .ram_error
+    jne .TEST10
     inc rdi
     loop .verify_loop
 
