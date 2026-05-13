@@ -1,9 +1,9 @@
 The file names are self‑explanatory and reflect the functionality of each program. The structure and flow of these assembly codes are inspired by the Introduction to x86 Microprocessor course I took at IUST University. While the course focused on the 8086 (16‑bit assembly), the examples in this repository are implemented using x86‑64 assembly.
 
 the src directory contains .asm files(64-bit assembly). 
-the build directory contains executed files using the following commands _for linux:
+the build directory contains executed files using the following commands _for **linux**:
 
-assemble using nasm :
+**Assemble** using **nasm** :
 ```
 nasm -f elf64 src/---.asm -o build/---.o
 ```
