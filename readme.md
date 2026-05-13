@@ -19,7 +19,7 @@ build/---
 the registers layout in x86-64 are as follow
 ![layout](images/registers.png)
 
-[read_key](read_key.asm) assembly code for the algorithm below is here
+[read_key](src/read_key.asm) assembly code for the algorithm below is here
 ```
 #read key
 #   ↓
