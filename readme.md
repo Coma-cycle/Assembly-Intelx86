@@ -1,5 +1,5 @@
 The names of the files are self-explanotory, indicating what one might expect the code to do. 
-these assembly programs, in the term of structure and flow, were inspired by the introduction to x86 Microprocessor course I took at IUST University.Although the cource focused on the 8086(16-bit assembly),
+these assembly programs, in terms of structure and flow, were inspired by the introduction to x86 Microprocessor course I took at IUST University.Although the cource focused on the 8086(16-bit assembly),
 here I am working with x86 64-bit assembly.
 
 the src directory contains .asm files(64-bit assembly). 
