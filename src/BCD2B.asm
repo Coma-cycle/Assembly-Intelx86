@@ -41,8 +41,8 @@ BCDTOBinary:
 print_number:
 mov rbx, 10
 mov rsi, buf+19 ; start point of memory is buf + 19
-	          ;since we take number from write to left as remainder
-		  ;in a few ines i will store it from left to write to diplay
+	            ;since we take number from write to left as remainder
+		        ;in a few ines i will store it from left to write to diplay
 	.convert:
 	xor rdx, rdx
 	div rbx
