@@ -7,7 +7,7 @@ section .data; variables are defind with value
 
 section .bss ;reserving memory
 store_byte resb 1
-LEN equ 1 ; for unknown bytes
+LEN equ 1 ; for unknown number of bytes
 	  ; $ store_byte - nasm directive, here $ means the current position
 	  ; so LEN is the size of data starting starting in mess2
 
