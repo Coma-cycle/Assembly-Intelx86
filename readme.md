@@ -32,4 +32,9 @@ the registers layout in x86-64 are as follow
 ```
 [BCDTOBINARY](src/BCD2B.asm) this scrpit will convert 4 digit bcd into binary
 
+[RAM_TEST](src/ram-test.am)---|
+
+![output](images/ram-test.png)
+
 [Hello world!](src/hello.asm) Hello, World! on sreen
+
