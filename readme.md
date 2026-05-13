@@ -6,18 +6,24 @@ i am working with x86 64-bit assembly)
 the src directory contains .asm files(64-bit assembly). 
 the build directory contains executed files using the following commands (for linux):
 
-nasm -f elf64 src/---.asm -o build/---.o ;assemble using nasm
-ld build/---.o -o /build/--- ; link the object file 
+assemble using nasm :
+```
+nasm -f elf64 src/---.asm -o build/---.o
+```
+link the object file:
+```
+ld build/---.o -o /build/---   
+```
+Run:
+```
 build/---
-
-widoew users can run it via:
-####
+```
 
 the registers layout in x86-64 are as follow
 ![layout](images/registers.png)
 
-[read_key](read_key.asm)
-
+[read_key](read_key.asm) assembly code for the algorithm below is here
+```
 #read key
 #   ↓
 #is key ESC?
@@ -26,3 +32,4 @@ the registers layout in x86-64 are as follow
 #print character
 #   ↓
 #repeat
+```
