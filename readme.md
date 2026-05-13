@@ -11,9 +11,11 @@ ld build/---.o -o /build/--- ; link the object file
 build/---
 
 widoew users can run it via:
-[]
+####
+
 the registers layout in x86-64 are as follow
 ![layout](images/registers.png)
+
 [read_key](read_key.asm)
 read key
    ↓
